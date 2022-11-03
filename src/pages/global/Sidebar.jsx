@@ -79,7 +79,7 @@ export const Sidebar = () => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.gray[100]}>
-                  ADMINS
+                  Perfil
                 </Typography>
                 <IconButton onClick={() => setIsCollpsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -110,7 +110,7 @@ export const Sidebar = () => {
                   Marcos João Bergue
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  VP Fancy Admin
+                  Administrador
                 </Typography>
               </Box>
             </Box>
@@ -119,7 +119,7 @@ export const Sidebar = () => {
           {/* MENU ITEMS */}
           <Box paddingLeft={isCollapsed ? undefined : "10%"}>
             <Item
-              title="Dashboard"
+              title="Painel de Controle"
               to="/"
               icon={<HomeOutlinedIcon />}
               selected={selected}
@@ -134,21 +134,21 @@ export const Sidebar = () => {
               Informações
             </Typography>
             <Item
-              title="Menage Team"
+              title="Gerenciar Equipe"
               to="/team"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Contacts Information"
+              title="Informações de contato"
               to="/contacts"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Invoices Balances"
+              title="Faturas"
               to="/invoices"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
@@ -163,14 +163,14 @@ export const Sidebar = () => {
               Páginas
             </Typography>
             <Item
-              title="Profile Form"
+              title="Formulário"
               to="/form"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Calendar"
+              title="Calendário"
               to="/calendar"
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
@@ -192,28 +192,28 @@ export const Sidebar = () => {
               Gráficos
             </Typography>
             <Item
-              title="Bar chart"
+              title="Gráfico Barra"
               to="/bar"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Pie Chart"
+              title="Gráfico Pizza"
               to="/pie"
               icon={<PieChartOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Line Chart"
+              title="Gráfico Linha"
               to="/line"
               icon={<TimelineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Geography Chart"
+              title="Geográfico"
               to="/geography"
               icon={<MapOutlinedIcon />}
               selected={selected}
