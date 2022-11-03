@@ -125,6 +125,14 @@ export const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+
+            <Typography
+              variant="h6"
+              color={colors.gray[300]}
+              sx={{ m: "15px 0 5px 20px" }}
+            >
+              Informações
+            </Typography>
             <Item
               title="Menage Team"
               to="/team"
@@ -146,6 +154,14 @@ export const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+
+            <Typography
+              variant="h6"
+              color={colors.gray[300]}
+              sx={{ m: "15px 0 5px 20px" }}
+            >
+              Páginas
+            </Typography>
             <Item
               title="Profile Form"
               to="/form"
@@ -167,6 +183,14 @@ export const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+
+            <Typography
+              variant="h6"
+              color={colors.gray[300]}
+              sx={{ m: "15px 0 5px 20px" }}
+            >
+              Gráficos
+            </Typography>
             <Item
               title="Bar chart"
               to="/bar"
