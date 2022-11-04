@@ -69,7 +69,7 @@ export const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="First Name"
+                label="Primeiro Nome"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.firstName}
@@ -83,7 +83,7 @@ export const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Last Name"
+                label="Sobrenome"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.lastName}
@@ -97,7 +97,7 @@ export const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="email"
+                label="Email"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.email}
@@ -111,7 +111,7 @@ export const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Contact Number"
+                label="Número para contato"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.contact}
@@ -125,7 +125,7 @@ export const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Address 1"
+                label="Cidade"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.address1}
@@ -139,7 +139,7 @@ export const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Address 2"
+                label="Bairro"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.address2}
