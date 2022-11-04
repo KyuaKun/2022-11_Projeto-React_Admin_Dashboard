@@ -32,8 +32,9 @@ const userSchema = yup.object().shape({
 });
 
 export const Form = () => {
-  const isNonMobile = useMediaQuery("(min-width:600px");
-  const handleSubmit = (values) => {
+  const isNonMobile = useMediaQuery("(min-width:600px)");
+
+  const handleFormSubmit = (values) => {
     console.log(values);
   };
 
@@ -41,7 +42,7 @@ export const Form = () => {
     <Box m="20px">
       <Header title="Formulário" subTitle="Crie um novo usuário" />
       <Formik
-        handleSubmit={handleSubmit}
+        onSubmit={handleFormSubmit}
         initialValues={initialValues}
         validationSchema={userSchema}
       >
@@ -53,7 +54,7 @@ export const Form = () => {
           handleChange,
           handleSubmit,
         }) => (
-          <form handleSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit}>
             <Box
               display="grid"
               gap="30px"
