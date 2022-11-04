@@ -50,7 +50,7 @@ export const Calendar = () => {
     <Box m="20px">
       <Header title="CALENDÁRIO" subTitle="Calendário interativo" />
       <Box display="flex" justifyContent="space-between">
-        {/* CALENDARIO SIDEBAR */}
+        {/* CALENDARIO - EVENTOS */}
         <Box
           flex="1 1 20%"
           backgroundColor={colors.primary[400]}
