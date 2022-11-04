@@ -5,8 +5,8 @@ import { Topbar } from "./pages/global/Topbar";
 import { Dashboard } from "./pages/dashboard";
 import { Sidebar } from "./pages/global/Sidebar";
 import { Team } from "./pages/team";
-// import Invoices from "./pages/global/Invoices";
-// import Contacts from "./pages/global/Contacts";
+import { Contacts } from "./pages/contacts";
+import { Invoices } from "./pages/invoices";
 // import Bar from "./pages/global/Bar";
 // import Form from "./pages/global/Form";
 // import Line from "./pages/global/Line";
@@ -28,8 +28,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
-              {/* <Route path="/contacts" element={<Contacts />} /> */}
-              {/* <Route path="/invoices" element={<Invoices />} /> */}
+              <Route path="/contacts" element={<Contacts />} />
+              <Route path="/invoices" element={<Invoices />} />
               {/* <Route path="/form" element={<Form />} /> */}
               {/* <Route path="/bar" element={<Bar />} /> */}
               {/* <Route path="/pie" element={<Pie />} /> */}
