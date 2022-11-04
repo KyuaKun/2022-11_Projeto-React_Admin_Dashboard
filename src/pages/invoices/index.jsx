@@ -9,15 +9,16 @@ export const Invoices = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const columns = [
-    { field: "id", headerName: "ID" },
-    { field: "registrarId", headerName: "Register ID" },
+    {
+      field: "id",
+      headerName: "ID",
+    },
     {
       field: "name",
       headerName: "Nome",
       flex: 1,
       cellClassName: "name-column--cell",
     },
-
     {
       field: "phone",
       headerName: "Telefone",
