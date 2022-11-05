@@ -12,7 +12,6 @@ import { Barchart } from "../../components/BarChart";
 import { Geochart } from "../../components/GeoChart";
 import { StatBox } from "../../components/StatBox";
 import { ProgressCircle } from "../../components/ProgressCircle";
-import { fontWeight } from "@mui/system";
 
 export const Dashboard = () => {
   const theme = useTheme();
