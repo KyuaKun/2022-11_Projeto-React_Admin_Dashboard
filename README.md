@@ -1,20 +1,52 @@
 # React Admin Dashboard App
+
 ### Projeto em andamento...
+
 <br/>
 
 ## Libs utilizadas:
+
 <p> React, Material UI, Nivo Charts, Formik, Yup, FullCalendar e Data Grid para construir todo este aplicativo. </p>
 <br/>
 
 ## Sobre:
+
 <p>
 Este aplicativo consiste no modo claro e escuro, 4 gráficos diferentes, 3 páginas de tabela de dados diferentes, página de perguntas frequentes, página de formulário e integração de calendário.
 </p>
 
 # Overview do projeto:
 
+### Rota: /
+
+<details>
+
+#### Modo Escuro
+
+<img src="https://user-images.githubusercontent.com/87536346/200135887-f66a1226-9b7c-4890-a2e6-8547469663c4.png" />
+
+#### Modo Claro
+
+<img src="https://user-images.githubusercontent.com/87536346/200135907-c47e86a1-fcfc-4e14-873a-c8118af7f62b.png" />
+</details>
 
 ### Rota: /team
-<details> 
+
+<details>
+
+#### Modo Escuro
+
 <img src="https://user-images.githubusercontent.com/87536346/199843682-d8f0870e-faf5-4528-837d-6d5e9e1aa172.png" />
+
+#### Modo Claro
+
+<img src="https://user-images.githubusercontent.com/87536346/200135794-f5a001f1-0c2f-4e94-8819-b9e2ce329122.png" />
+</details>
+
+### Rota: /calendar
+
+<details>
+
+<img src="https://user-images.githubusercontent.com/87536346/200136138-1eb01426-1b45-4499-8a96-6b928c36d0d3.png" >
+
 </details>
