@@ -1,6 +1,9 @@
 # React Admin Dashboard App
 
-### Projeto em andamento...
+```
+npm i - para instalar as dependências.
+npm run start - para rodar.
+```
 
 <br/>
 
@@ -48,5 +51,27 @@ Este aplicativo consiste no modo claro e escuro, 4 gráficos diferentes, 3 pági
 <details>
 
 <img src="https://user-images.githubusercontent.com/87536346/200136138-1eb01426-1b45-4499-8a96-6b928c36d0d3.png" >
+
+</details>
+
+### Rota: /pizza
+
+<details>
+
+#### Modo Escuro
+
+<img src="https://user-images.githubusercontent.com/87536346/200136378-5640bb81-5a24-4c80-a655-007649924c3b.png" >
+
+#### Modo Claro
+
+<img src="https://user-images.githubusercontent.com/87536346/200136454-b42bf0b2-acbf-47d0-a0f2-b7ff200fea7d.png" />
+
+</details>
+
+### Sidebar / Barra lateral
+
+<details>
+
+<img src="https://user-images.githubusercontent.com/87536346/200136734-95755238-c515-4c32-a6e0-bdee79645888.gif" />
 
 </details>
