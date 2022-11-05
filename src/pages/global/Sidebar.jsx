@@ -200,7 +200,7 @@ export const Sidebar = () => {
             />
             <Item
               title="Gráfico Pizza"
-              to="/pie"
+              to="/pizza"
               icon={<PieChartOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
