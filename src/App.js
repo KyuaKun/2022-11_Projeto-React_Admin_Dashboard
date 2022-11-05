@@ -10,9 +10,9 @@ import { Invoices } from "./pages/invoices";
 import { Form } from "./pages/form";
 import { Calendar } from "./pages/calendar";
 import { FAQ } from "./pages/faq";
-// import Bar from "./pages/global/Bar";
+import { Bar } from "./pages/bar";
+import { Pizza } from "./pages/pizza";
 // import Line from "./pages/global/Line";
-// import Pie from "./pages/global/Pie";
 // import Geography from "./pages/global/Geography";
 
 function App() {
@@ -34,8 +34,8 @@ function App() {
               <Route path="/form" element={<Form />} />
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/faq" element={<FAQ />} />
-              {/* <Route path="/bar" element={<Bar />} /> */}
-              {/* <Route path="/pie" element={<Pie />} /> */}
+              <Route path="/bar" element={<Bar />} />
+              <Route path="/pizza" element={<Pizza />} />
               {/* <Route path="/line" element={<Line />} /> */}
               {/* <Route path="/geography" element={<Geography />} /> */}
             </Routes>
