@@ -131,8 +131,9 @@ export const Sidebar = () => {
               color={colors.gray[300]}
               sx={{ m: "15px 0 5px 20px" }}
             >
-              Informações
+              {isCollapsed ? "Info" : "Informações"}
             </Typography>
+
             <Item
               title="Gerenciar Equipe"
               to="/team"
