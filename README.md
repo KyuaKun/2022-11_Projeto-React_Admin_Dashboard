@@ -72,6 +72,14 @@ Este aplicativo consiste no modo claro e escuro, 4 gráficos diferentes, 3 pági
 
 <details>
 
-<img src="https://user-images.githubusercontent.com/87536346/200136734-95755238-c515-4c32-a6e0-bdee79645888.gif" />
+<img src="https://user-images.githubusercontent.com/87536346/200148352-655d69e7-9c19-4dc9-9012-2c0f816ebaea.gif" />
+
+</details>
+
+### Gráficos
+
+<details>
+
+<img src="https://user-images.githubusercontent.com/87536346/200148519-65f2e44b-d0d3-4e40-babd-c72565e088e2.gif" />
 
 </details>
